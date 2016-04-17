@@ -25,7 +25,7 @@ import okhttp3.Response;
 public class MainActivity extends AppCompatActivity implements ItemClickSupport.OnItemClickListener {
 
 
-    private final String URL = getString(R.string.yandexurl);
+    private final String URL = "http://cache-default01h.cdn.yandex.net/download.cdn.yandex.net/mobilization-2016/artists.json";
 
     ProgressBar pbar;
     ArrayList<Artist> artistsList = new ArrayList<>();
